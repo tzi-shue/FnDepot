@@ -3,7 +3,7 @@
     "display_name": "互维云+远程打印助手",
     "platform": "all",
     "version": "1.2.5-14.2",
-    "desc": "把 USB / 网络打印机变成云打印机，基于 CUPS 的远程打印服务。支持微信小程序远程打印、全文档格式转换（PDF / Word / Excel / PPT / 图片）、USB 与局域网打印机自动发现。管理页面内置设备绑定、打印机管理、打印队列监控。",
+    "desc": "一个针对 CUPS 开发的云打印系统，让你的老旧打印机也能支持微信小程序云打印。微信搜索「互维云+」即可找到小程序；Docker 内含专属云 ID，小程序扫码即可添加设备。管理页面（将 ip 换成你的设备 IP）：http://ip:8088 设备管理页面（查看设备 ID）；http://ip:631 CUPS 页面（用户 root / 密码 admin123）；http://ip:8080 cups-web 页面（用户/密码均为 admin）。支持 x86 与 ARM 架构。",
     "labels": "工具,打印,云打印",
     "distributor": "tzi-shue",
     "distributor_url": "https://github.com/tzi-shue/cloud-printer",
