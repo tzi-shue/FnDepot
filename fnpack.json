@@ -12,6 +12,6 @@
     "install_type": "系统空间",
     "size": "172KB",
     "download_url": "",
-    "changelog": "1.2.5-14.2：新增飞牛 fnOS 应用包（.fpk）；Docker 镜像增加 HPLIP 专有插件与 foomatic-rip-hplip 兜底；固件灌送改用 pyusb/libusb；CUPS 作业错误策略设为 abort-job 防止队列死锁。"
+    "changelog": ""
   }
 }
