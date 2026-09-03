@@ -1,0 +1,17 @@
+{
+  "cloud-printer": {
+    "display_name": "互维云+远程打印助手",
+    "platform": "all",
+    "version": "1.2.5-14.2",
+    "desc": "把 USB / 网络打印机变成云打印机，基于 CUPS 的远程打印服务。支持微信小程序远程打印、全文档格式转换（PDF / Word / Excel / PPT / 图片）、USB 与局域网打印机自动发现。管理页面内置设备绑定、打印机管理、打印队列监控。",
+    "labels": "工具,打印,云打印",
+    "distributor": "tzi-shue",
+    "distributor_url": "https://github.com/tzi-shue/cloud-printer",
+    "bug_report_url": "https://github.com/tzi-shue/cloud-printer/issues",
+    "isdocker": "true",
+    "install_type": "系统空间",
+    "size": "172KB",
+    "download_url": "",
+    "changelog": "1.2.5-14.2：新增飞牛 fnOS 应用包（.fpk）；Docker 镜像增加 HPLIP 专有插件与 foomatic-rip-hplip 兜底；固件灌送改用 pyusb/libusb；CUPS 作业错误策略设为 abort-job 防止队列死锁。"
+  }
+}
