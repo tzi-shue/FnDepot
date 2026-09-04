@@ -31,7 +31,7 @@
 
 ## 镜像
 
-- `ghcr.io/tzi-shue/cloud-printer:latest`
+- `ghcr.dockerproxy.com/tzi-shue/cloud-printer:latest`
 
 ## 反馈
 
