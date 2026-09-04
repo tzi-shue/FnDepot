@@ -26,7 +26,7 @@
 
 1. 在飞牛 FnDepot 客户端中添加应用源：`https://github.com/tzi-shue/FnDepot`
 2. 搜索「互维云+远程打印助手」并安装
-3. 安装时设置 CUPS 管理员密码（默认 `admin123`，建议修改）
+3. 安装后直接访问 `http://<NAS IP>:8088` 打开设备管理页面（CUPS 管理页默认密码 `admin123`）
 4. 安装完成后访问 `http://<NAS IP>:8088` 打开设备管理页面
 
 ## 镜像
