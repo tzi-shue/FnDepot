@@ -3,7 +3,7 @@
   "source_info": {
     "name": "互维云+远程打印助手仓库",
     "author": "tzi-shue",
-    "homepage": "https://github.com/tzi-shue/cloud-printer",
+    "homepage": "https://github.com/tzi-shue/FnDepot",
     "description": "互维云+远程打印助手 FnDepot 第三方应用源"
   },
   "apps": {
@@ -18,25 +18,25 @@
       ],
       "icon_url": "./cloud-printer/ICON.PNG",
       "readme_url": "./cloud-printer/README.md",
-      "bug_report_url": "https://github.com/tzi-shue/cloud-printer/issues",
+      "bug_report_url": "https://github.com/tzi-shue/FnDepot/issues",
       "maintainer": "tzi-shue",
-      "maintainer_url": "https://github.com/tzi-shue/cloud-printer",
+      "maintainer_url": "https://github.com/tzi-shue/FnDepot",
       "distributor": "tzi-shue",
-      "distributor_url": "https://github.com/tzi-shue/cloud-printer",
+      "distributor_url": "https://github.com/tzi-shue/FnDepot",
       "run_as": "root",
       "install_type": "",
       "is_docker": true,
       "service_port": "8088",
       "releases": {
         "1.2.5-14.2": {
-          "changelog": "",
-          "updated_at": "2026-09-04T15:30:00+08:00",
+          "changelog": "首版发布：基于 Docker 的 CUPS 云打印服务，微信小程序「互维云+」扫码即可云打印，兼容 x86 与 ARM 架构。",
+          "updated_at": "2026-09-07T12:00:00+08:00",
           "os_min_version": "0.9.0",
           "packages": {
             "all": {
               "download_url": "./cloud-printer/cloud-printer.fpk",
-              "sha256": "5d1132d3884ebb965d166958335239e84b2a0027369819f3902d46946649a348",
-              "size": 171179
+              "sha256": "bf2b228fd3c514c589c97efada8d3804abce15adf5709867348f8d974c3ba502",
+              "size": 170337
             }
           }
         }
