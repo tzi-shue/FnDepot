@@ -14,7 +14,7 @@
         "all"
       ],
       "categories": [
-        "系统工具"
+        "实用效率"
       ],
       "icon_url": "./cloud-printer/ICON.PNG",
       "readme_url": "./cloud-printer/README.md",
@@ -29,14 +29,14 @@
       "service_port": "8088",
       "releases": {
         "1.2.5-14.2": {
-          "changelog": "首版发布：基于 Docker 的 CUPS 云打印服务，微信小程序「互维云+」扫码即可云打印，兼容 x86 与 ARM 架构。",
-          "updated_at": "2026-09-07T12:00:00+08:00",
+          "changelog": "安装向导新增网络模式选择：Host 模式（默认）或 Bridge 模式；Bridge 模式可自定义管理页、CUPS、cups-web 端口与 CUPS 管理员密码；支持安装后在应用设置中修改配置并自动重启容器。",
+          "updated_at": "2026-09-08T12:00:00+08:00",
           "os_min_version": "0.9.0",
           "packages": {
             "all": {
               "download_url": "./cloud-printer/cloud-printer.fpk",
-              "sha256": "bf2b228fd3c514c589c97efada8d3804abce15adf5709867348f8d974c3ba502",
-              "size": 170337
+              "sha256": "1dc0b38508034c3f3faa95aa88a10432e5aaa7260af0f3e3cc99296a6f6beebc",
+              "size": 172601
             }
           }
         }
