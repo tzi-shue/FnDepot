@@ -35,8 +35,8 @@
           "packages": {
             "all": {
               "download_url": "./cloud-printer/cloud-printer.fpk",
-              "sha256": "1dc0b38508034c3f3faa95aa88a10432e5aaa7260af0f3e3cc99296a6f6beebc",
-              "size": 172601
+              "sha256": "758d4809defff902f633338b4d434b048aa5f45fc228813952f4f21badbd60c9",
+              "size": 172603
             }
           }
         }
