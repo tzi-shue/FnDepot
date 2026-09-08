@@ -70,7 +70,7 @@
 ### 为什么选择
 
 - ✅ **极简部署**：一条命令自动适配，无需手工编排容器网络。
-- ✅ **多网络模式**：双网络 / Bridge / Host 全覆盖，复杂环境也能落地。
+- ✅ **多网络模式**：Bridge / Host 全覆盖，复杂环境也能落地。
 - ✅ **全 NAS 兼容**：群晖、威联通、飞牛、绿联、极空间、iStoreOS…通吃。
 - ✅ **安全稳定**：Docker 隔离、权限最小化，数据不出本地。
 - ✅ **公益免费**：无订阅绑架、无隐藏收费。
@@ -278,9 +278,8 @@ docker exec cloud-printer lp -d MyPrinter /usr/share/cups/data/testprint
 | Bridge | ❌ | ❌ 受限 | ✅ 端口映射 | ✅ 无 |
 | Host | △ 共享 | ✅ | ✅ | ✗ 有 |
 | 纯 macvlan | ✅ | ✅ | ✗ 不支持 | ✅ 无 |
-| **macvlan + bridge（双网络）** | ✅ | ✅ 完美 | ✅ 支持 | ✅ 无 |
 
-> 💡 **推荐双网络模式**：独立局域网 IP（手机自动发现）+ bridge 网络（NAS 本机 `localhost:631` 访问）+ 无端口冲突，综合表现最佳。
+> 💡 **推荐Host网络模式**
 > 各 NAS 的图形化网络配置向导与完整命令见 👉 http://hhnas.eu.org:8586
 
 ---
@@ -463,7 +462,6 @@ docker logs -f cloud-printer
 - **局域网搜索不到打印机**：Host / 双网络模式下 mDNS 依赖 5353/udp；Bridge 模式默认不支持 Bonjour 跨网段发现，建议改用双网络或 Host 模式。
 - **打印任务卡住 / 显示暂停**：在 CUPS 管理页 `http://宿主机IP:631` 找到打印机，点击「Resume Job」；或执行 `docker exec cloud-printer cupsenable 打印机名`。
 - **小程序提示设备离线**：检查是否能访问互联网（用于云端信令），同时检查容器日志中是否有 WebSocket 连接成功提示。
-- **macvlan 容器无法被宿主机访问**：这是 macvlan 设计限制，双网络模式通过 bridge 网络解决；若只用 macvlan，需在宿主机创建 macvlan 子接口访问。
 
 ### 常见问题（FAQ）
 
