@@ -1,7 +1,7 @@
 {
   "schema_version": "2",
   "source_info": {
-    "name": "互维云+远程打印助手",
+    "name": "互维云+远程打印助手仓库",
     "author": "tzi-shue",
     "homepage": "https://github.com/tzi-shue/FnDepot",
     "description": "互维云+远程打印助手 FnDepot 第三方应用源"
@@ -35,8 +35,8 @@
           "packages": {
             "all": {
               "download_url": "./cloud-printer/cloud-printer.fpk",
-              "sha256": "758d4809defff902f633338b4d434b048aa5f45fc228813952f4f21badbd60c9",
-              "size": 172603
+              "sha256": "0ecd50785b9e59bea62b63e3635143decb76a10fdeb0a5ef8142e750f5fea9d7",
+              "size": 173900
             }
           }
         }
