@@ -19,7 +19,7 @@
 
 ## 📖 项目简介
 
-**Cloud Printer** 是一个把一台普通的 Linux 机器（工控机、NAS、树莓派、龙芯等）变成「云打印机」的 Docker 镜像。
+**Cloud Printer** 是一个把一台普通的 Linux 机器（工控机、NAS、树莓派等）变成「云打印机」的 Docker 镜像。
 
 在任意 Linux 设备上运行一个 Docker 容器，插入 USB 打印机，即可远程接收打印任务。支持 PDF、图片、Office 文档，兼容 x86_64 / ARM64 / ARMv7 / LoongArch64 架构。
 
