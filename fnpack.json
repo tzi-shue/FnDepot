@@ -23,20 +23,20 @@
       "maintainer_url": "https://github.com/tzi-shue/FnDepot",
       "distributor": "tzi-shue",
       "distributor_url": "https://github.com/tzi-shue/FnDepot",
-      "run_as": "root",
+      "run_as": "package",
       "install_type": "",
       "is_docker": true,
       "service_port": "8088",
       "releases": {
         "1.2.5-14.2": {
-          "changelog": "安装向导新增网络模式选择：Host 模式（默认）或 Bridge 模式；Bridge 模式可自定义管理页、CUPS、cups-web 端口与 CUPS 管理员密码；支持安装后在应用设置中修改配置并自动重启容器。",
-          "updated_at": "2026-09-08T12:00:00+08:00",
+          "changelog": "固定 Host 网络模式，安装更稳定；安装向导保留镜像仓库选择（自动/阿里云/Docker Hub，拉取失败自动回退）；卸载时可选保留或删除打印数据；支持 x86 与 ARM 架构。",
+          "updated_at": "2026-09-09T12:00:00+08:00",
           "os_min_version": "0.9.0",
           "packages": {
             "all": {
               "download_url": "./cloud-printer/cloud-printer.fpk",
-              "sha256": "c6fa3a54a474c34f29a8a0d54a3aae6e44a1095dd8593355b390d83a4f802bdb",
-              "size": 177056
+              "sha256": "9d63690e186219fae87fe7b47508d50ef8d93c0de84a18e0bdde984dd349ccde",
+              "size": 173142
             }
           }
         }
