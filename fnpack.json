@@ -29,14 +29,14 @@
       "service_port": "8088",
       "releases": {
         "1.2.5-14.2": {
-          "changelog": "固定 Host 网络模式，安装更稳定；安装向导保留镜像仓库选择（自动/阿里云/Docker Hub，拉取失败自动回退）；卸载时可选保留或删除打印数据；支持 x86 与 ARM 架构。",
-          "updated_at": "2026-09-09T12:00:00+08:00",
+          "changelog": "修复桌面图标不显示的问题；修复卸载时选择「删除所有数据」后设备 ID 等仍残留的问题（改为容器删除后动态清除全部相关数据卷并记录日志）；桌面入口改为新标签页打开；安装前端口冲突检测（8088/8080/631）；镜像仓库自动/阿里云/Docker Hub 可选；支持 x86 与 ARM 架构。",
+          "updated_at": "2026-09-10T12:00:00+08:00",
           "os_min_version": "0.9.0",
           "packages": {
             "all": {
               "download_url": "./cloud-printer/cloud-printer.fpk",
-              "sha256": "9d63690e186219fae87fe7b47508d50ef8d93c0de84a18e0bdde984dd349ccde",
-              "size": 173142
+              "sha256": "b7c8336a9dbd4cb995b47755b53c2805b6b780b085946e4f27a20f1437c01383",
+              "size": 175658
             }
           }
         }
