@@ -9,7 +9,7 @@
   "apps": {
     "cloud-printer": {
       "display_name": "互维云+远程打印助手",
-      "desc": "一个针对 CUPS 开发的云打印系统，让你的老旧打印机也能支持微信小程序云打印。微信搜索「互维云+」即可找到小程序；Docker 内含专属云 ID，小程序扫码即可添加设备。管理页面（将 ip 换成你的设备 IP）：http://ip:8088 设备管理页面（查看设备 ID）；http://ip:631 CUPS 页面（用户 root / 密码 admin123）；http://ip:8080 cups-web 页面（用户/密码均为 admin）。支持 x86 与 ARM 架构。",
+      "desc": "一个针对 CUPS 开发的云打印系统，让你的老旧打印机也能支持微信小程序云打印。微信搜索「互维云+」即可找到小程序；Docker 内含专属云 ID，小程序扫码即可添加设备。管理页面：Host 模式经 NAS IP 的 8088/631/8080 端口访问，Bridge 模式可自定义宿主机端口，Macvlan 模式下容器拥有独立局域网 IP（http://容器IP:8088）。支持 USB 打印机直通、网络打印机自动发现，兼容 x86 与 ARM 架构。",
       "platform": [
         "all"
       ],
@@ -28,15 +28,25 @@
       "is_docker": true,
       "service_port": "8088",
       "releases": {
-        "1.2.5-14.2": {
-          "changelog": "修复桌面图标不显示的问题；修复卸载时选择「删除所有数据」后设备 ID 等仍残留的问题（改为容器删除后动态清除全部相关数据卷并记录日志）；桌面入口改为新标签页打开；安装前端口冲突检测（8088/8080/631）；镜像仓库自动/阿里云/Docker Hub 可选；支持 x86 与 ARM 架构。",
-          "updated_at": "2026-09-10T12:00:00+08:00",
+        "1.2.5-16": {
+          "updated_at": "2026-11-04T10:30:00+08:00",
           "os_min_version": "0.9.0",
           "packages": {
             "all": {
               "download_url": "./cloud-printer/cloud-printer.fpk",
-              "sha256": "b7c8336a9dbd4cb995b47755b53c2805b6b780b085946e4f27a20f1437c01383",
-              "size": 175658
+              "sha256": "a6542c3542bb68f2e6052c1bf64ab0abb03a83129c4ac43ee959335f5df1131e",
+              "size": 200916
+            }
+          }
+        },
+        "1.2.5-17": {
+          "updated_at": "2026-11-04T10:30:00+08:00",
+          "os_min_version": "0.9.0",
+          "packages": {
+            "all": {
+              "download_url": "./cloud-printer/cloud-printer.fpk",
+              "sha256": "a6542c3542bb68f2e6052c1bf64ab0abb03a83129c4ac43ee959335f5df1131e",
+              "size": 200916
             }
           }
         }
