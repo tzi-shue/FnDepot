@@ -28,25 +28,14 @@
       "is_docker": true,
       "service_port": "8088",
       "releases": {
-        "1.2.5-16": {
-          "updated_at": "2026-11-04T10:30:00+08:00",
+        "1.2.5-14.8": {
+          "updated_at": "2026-11-23T13:00:00+0800",
           "os_min_version": "0.9.0",
           "packages": {
             "all": {
               "download_url": "./cloud-printer/cloud-printer.fpk",
-              "sha256": "a6542c3542bb68f2e6052c1bf64ab0abb03a83129c4ac43ee959335f5df1131e",
-              "size": 200916
-            }
-          }
-        },
-        "1.2.5-17": {
-          "updated_at": "2026-11-04T10:30:00+08:00",
-          "os_min_version": "0.9.0",
-          "packages": {
-            "all": {
-              "download_url": "./cloud-printer/cloud-printer.fpk",
-              "sha256": "a6542c3542bb68f2e6052c1bf64ab0abb03a83129c4ac43ee959335f5df1131e",
-              "size": 200916
+              "sha256": "79c9166bde65d22e2a528447f0007beeea57751d428880bc11b2d80b4dfe46f5",
+              "size": 202269
             }
           }
         }
